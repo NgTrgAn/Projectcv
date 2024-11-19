@@ -1,0 +1,6 @@
+20:28:48 **** Clean-only build of configuration Nios II for project system ****
+wsl make clean 
+[system clean complete]
+
+20:28:49 Build Finished (took 1s.328ms)
+

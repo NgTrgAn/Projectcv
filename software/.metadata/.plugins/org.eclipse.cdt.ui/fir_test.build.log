@@ -1,0 +1,6 @@
+20:25:37 **** Build of configuration Nios II for project fir_test ****
+wsl make mem_init_install 
+/mnt/e/THSOC/FIR/software/fir_test_bsp/mem_init.mk:246: *** Deprecated Makefile Target: 'mem_init_install'. Use target 'mem_init_generate' and then add mem_init/meminit.qip to your Quartus II Project.  Stop.
+
+20:25:38 Build Finished (took 1s.62ms)
+

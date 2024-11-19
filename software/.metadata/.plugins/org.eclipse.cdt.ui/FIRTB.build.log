@@ -1,0 +1,9 @@
+20:35:57 **** Incremental Build of configuration Nios II for project FIRTB ****
+wsl make all 
+Info: Building /mnt/e/THSOC/FIR/software/FIRTB_bsp/
+make --no-print-directory -C /mnt/e/THSOC/FIR/software/FIRTB_bsp/
+[BSP build complete]
+[RUN_ON_HDL_SIMULATOR_ONLY_FIRTB build complete]
+
+20:35:58 Build Finished (took 1s.371ms)
+

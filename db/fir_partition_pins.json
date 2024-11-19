@@ -1,0 +1,341 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "control",
+					"strict" : false
+				},
+				{
+					"name" : "store0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "store0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "store0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "store0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "store0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "store0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "store0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "store0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "store1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "store1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "store1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "store1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "store1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "store1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "store1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "store1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "store2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "store2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "store2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "store2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "store2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "store2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "store2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "store2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "store3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "store3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "store3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "store3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "store3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "store3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "store3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "store3[7]",
+					"strict" : false
+				},
+				{
+					"name" : "store4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "store4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "store4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "store4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "store4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "store4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "store4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "store4[7]",
+					"strict" : false
+				},
+				{
+					"name" : "store5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "store5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "store5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "store5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "store5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "store5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "store5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "store5[7]",
+					"strict" : false
+				},
+				{
+					"name" : "store6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "store6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "store6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "store6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "store6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "store6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "store6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "store6[7]",
+					"strict" : false
+				},
+				{
+					"name" : "store7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "store7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "store7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "store7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "store7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "store7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "store7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "store7[7]",
+					"strict" : false
+				},
+				{
+					"name" : "chipselect",
+					"strict" : false
+				},
+				{
+					"name" : "read",
+					"strict" : false
+				},
+				{
+					"name" : "address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "writedata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "write",
+					"strict" : false
+				},
+				{
+					"name" : "status",
+					"strict" : false
+				},
+				{
+					"name" : "writedata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "writedata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "writedata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "writedata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "writedata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "writedata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "writedata[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,6 @@
+21:44:48 **** Incremental Build of configuration Nios II for project FIRTB_bsp ****
+wsl make all 
+[BSP build complete]
+
+21:44:49 Build Finished (took 570ms)
+

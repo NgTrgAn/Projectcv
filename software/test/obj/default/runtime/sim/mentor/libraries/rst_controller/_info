@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/THSOC/FIR/software/test/obj/default/runtime/sim/mentor
+valtera_reset_controller
+!s110 1730900153
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+I^lGST:OFYI8bll1zP3bSS0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1730815143
+8E:/THSOC/FIR/system/testbench/system_tb/simulation/submodules/altera_reset_controller.v
+FE:/THSOC/FIR/system/testbench/system_tb/simulation/submodules/altera_reset_controller.v
+L0 42
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1730900153.000000
+!s107 E:/THSOC/FIR/system/testbench/system_tb/simulation/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|E:/THSOC/FIR/system/testbench/system_tb/simulation/submodules/altera_reset_controller.v|-work|rst_controller|
+!i113 1
+Z5 o-work rst_controller
+Z6 tCvgOpt 0
+valtera_reset_synchronizer
+!s110 1730900154
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+ILL3c4zkZnkSNhK8g>`UV03
+R1
+R0
+R2
+8E:/THSOC/FIR/system/testbench/system_tb/simulation/submodules/altera_reset_synchronizer.v
+FE:/THSOC/FIR/system/testbench/system_tb/simulation/submodules/altera_reset_synchronizer.v
+L0 24
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/THSOC/FIR/system/testbench/system_tb/simulation/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|E:/THSOC/FIR/system/testbench/system_tb/simulation/submodules/altera_reset_synchronizer.v|-work|rst_controller|
+!i113 1
+R5
+R6

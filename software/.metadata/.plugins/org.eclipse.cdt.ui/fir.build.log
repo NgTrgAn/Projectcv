@@ -1,0 +1,23 @@
+14:54:24 **** Incremental Build of configuration Nios II for project fir ****
+wsl make all 
+Info: Building /mnt/e/THSOC/FIR/software/fir_bsp/
+make --no-print-directory -C /mnt/e/THSOC/FIR/software/fir_bsp/
+Makefile not up to date.
+/mnt/e/THSOC/FIR/system.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+Makefile:543: recipe for target 'public.mk' failed
+make[1]: *** [public.mk] Error 1
+make: *** [/mnt/e/THSOC/FIR/software/fir_bsp/-recurs-make-lib] Error 2
+Makefile:842: recipe for target '/mnt/e/THSOC/FIR/software/fir_bsp/-recurs-make-lib' failed
+
+14:54:28 Build Finished (took 3s.409ms)
+

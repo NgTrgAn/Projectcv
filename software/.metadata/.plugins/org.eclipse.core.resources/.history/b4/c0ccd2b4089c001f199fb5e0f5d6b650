@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include "system.h"
+#include "io.h"
+char input_data[8] = {1, 2, 3, 4, 5, 6, 7, 8};
+
+unsigned char *fir_base[8] = {
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x00),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x08),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x10),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x18),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x20),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x28),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x30),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x38)
+};
+
+void send_data_to_fir(char *data, int length) {
+    for (int i = 0; i < length; i++) {
+        printf("Writing %d to address %d\n", data[i],i);
+        *(fir_base[i]) = data[i];
+        IOWR_8DIRECT(*(fir_base[i]),0,data[i]);
+    }
+}
+
+void read_data_from_fir(int length) {
+	int data;
+    for (int i = 0; i < length; i++) {
+    	data = IORD_8DIRECT(*(fir_base[i]),0);
+        printf("Reading from address %p: byte %d = %d\n", (void *)fir_base[i], i, data);
+    }
+}
+
+int main() {
+    send_data_to_fir(input_data, 8);
+    read_data_from_fir(8);
+    return 0;
+}

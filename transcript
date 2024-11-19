@@ -1,0 +1,8 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# vsim -gui system_sim.mpf 
+# Start time: 20:25:48 on Nov 05,2024
+# ** Error (suppressible): (vsim-19) Failed to access library 'system_sim' at "system_sim".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 20:25:49 on Nov 05,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

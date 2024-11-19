@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.altera.sbtgui.launch.modelsim.Nios2ModelsimLaunchConfiguration">
+<stringAttribute key="elfFile" value="E:\THSOC\FIR\software\fir_test\RUN_ON_HDL_SIMULATOR_ONLY_fir_test.elf"/>
+<booleanAttribute key="elfQsysGeneratedSystem" value="false"/>
+<booleanAttribute key="elfSimulationEnabled" value="true"/>
+<stringAttribute key="modelSimPath" value="C:\intelFPGA\18.1\modelsim_ase\win32aloem"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.altera.debug.cdi.gdb.plugin.Nios2GdbCdiDebugger"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="RUN_ON_HDL_SIMULATOR_ONLY_fir_test.elf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="fir_test"/>
+<stringAttribute key="spdPath" value="e:\THSOC\FIR\system_tb.spd"/>
+</launchConfiguration>

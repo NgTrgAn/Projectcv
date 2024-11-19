@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include "system.h"
+#include "io.h"
+char input_data[8] = {0, 1, 2, 3, 4, 5, 6, 7};
+//unsigned int input_data2[8] = {1, 2, 3, 4, 5, 6, 7, 8};
+
+unsigned char *fir_base[8] = {
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x00),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x08),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x10),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x18),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x20),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x28),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x30),
+    (unsigned char*) (FIR_FILTER_0_BASE + 0x38)
+};
+
+int send_data_to_fir(char *data1, int length) {
+    for (int i = 0; i < length; i++) {
+        printf("Writing %d to address %d\n", data1[i],i);
+        *(fir_base[i]) = data1[i];
+        //IOWR_32DIRECT(fir_base[i],0,data2[i]);
+    }
+    return 1;
+}
+
+
+
+int main() {
+	int done = 0;
+    done = send_data_to_fir(input_data,input_data2, 8);
+    if(done){
+    	int data;
+    	for (int j = 0; j < 8; j++) {
+    	 data = IORD_32DIRECT(fir_base[j],0);
+    	 printf("Reading from address %d = %d\n", j, data);
+    	    }
+    	*(fir_base[0]) = 8;
+    	data = IORD_32DIRECT(fir_base[0],0);
+    	printf("Reading from result of fir = %d\n",(int)data);
+    }
+    return 0;
+}

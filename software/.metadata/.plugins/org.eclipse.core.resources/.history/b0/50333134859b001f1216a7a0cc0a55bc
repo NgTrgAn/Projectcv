@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include "system.h"
+
+char input_data[8] = {1, 2, 3, 4, 5, 6, 7, 8};
+char *fir_base[8] = {
+		(char*) (FIR_FILTER_0_BASE + 0),
+		(char*) (FIR_FILTER_0_BASE + 8),
+		(char*) (FIR_FILTER_0_BASE + 16),
+		(char*) (FIR_FILTER_0_BASE + 24),
+		(char*) (FIR_FILTER_0_BASE + 32),
+		(char*) (FIR_FILTER_0_BASE + 40),
+		(char*) (FIR_FILTER_0_BASE + 48),
+		(char*) (FIR_FILTER_0_BASE + 56) };
+
+void send_data_to_fir(char *data, int length) {
+    for (int i = 0; i < length; i++) {
+        *fir_base[i] = data[i];
+    }
+}
+
+void read_data_from_fir(int length) {
+    for (int i = 0; i < length; i++) {
+        printf("byte %d = %d\n", i, *fir_base[i]);
+    }
+}
+
+int main() {
+    send_data_to_fir(input_data, 8);
+    read_data_from_fir(8);
+    return 0;
+}
